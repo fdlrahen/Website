@@ -1,0 +1,15 @@
+/* Navbar */
+.navbar {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+  .offcanvas-header {
+    background-color: #f8f9fa;
+  }
+  

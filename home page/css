@@ -1,0 +1,62 @@
+body{
+    font-family: sans-serif;
+}
+.navbar{
+    
+    padding: 0 !important;
+    position: static;
+}
+.navbar bg-body-tertiary fixed-top{
+    background-color: #1a1f23;
+}
+.navbar-nav li{
+    padding: 0 10 px !important;
+}
+
+.style-judul{
+    text-align: justify;
+    float: right;
+    font-size: 30 px;
+    font-weight: 600;
+}
+
+.style-judul img{
+    height: 30px;
+    padding-left: 20px;
+    float :left ;
+}
+
+.offcanvas-body{
+    background-color: #b8d6ec;
+}
+
+#banner{
+    background-image: linear-gradient( to right, #b8d6ec, #58a9e5);
+}
+.container{
+    position: absolute;
+    top: 90px;
+}
+
+.row{
+   padding-left: 100px;
+}
+
+.card{
+    max-width: 650px;
+    padding-left: 350px;
+    top: 200px;
+    position: relative;
+    background-color: #939a9f;
+
+}
+
+.col-md-4 img{
+    height: 200px;
+    width: 180px;
+}
+
+.artikel{
+    top: 400px;
+    position: fixed;
+}

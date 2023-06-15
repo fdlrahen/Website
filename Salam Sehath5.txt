@@ -1,0 +1,121 @@
+Salam Sehat</h5>
+            <p class="card-text">Bersama-sama, kita dapat menciptakan perubahan positif yang akan mempengaruhi kehidupan banyak orang di sekitar kita. Disini kita sebagai berkomitmen untuk menyehatkan masyarakat, dan oleh karena itu kita membuat langkah besar. </p>
+            <p>layanan yang kami berikan disini adalah:</p>
+            <p>1. Perawat Jalan:</p>
+            <p>   Kami mengetahui bahwa banyak orang mengalami kesulitan dalam masalah kesehatan</p>
+            <p>2.Beli Produk kami</p>
+            <p>  Di luar sana terdapat kemungkinan bahwa orang yang tinggal sendiri mengalami kesulitan saat sedang sakit. Permasalahan     yang mungkin terjadi adalah bahwa membeli obat2an adalah hal yang sulit. Serta ketidakpahaman akan jenis obat-obatan. Disini kami memberi penawaran dengan menyediakan obat-obatan dasar seperti flu, demam dll</p>
+            <a href="#" class="btn btn-primary">Cari perawat pribadi</a>
+
+
+<nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#page-top">
+                    <p class="style-judul"> <img src="/Images/images.png" alt="way" height="35px" float="left">Perawat anda</p>
+                </a>
+               <!-- <i class="fa-sharp fa-light fa-hospital" href>perawat</i>-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/artikel/Depanartikel.html">Artikel</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Produk
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Perawat jalam</a></li>
+                                    <li><a class="dropdown-item" href="#">Toko</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+body{
+    font-family: sans-serif;
+}
+.navbar{
+    
+    padding: 0 !important;
+    position: static;
+}
+.navbar bg-body-tertiary fixed-top{
+    background-color: #1a1f23;
+}
+.navbar-nav li{
+    padding: 0 10 px !important;
+}
+
+.style-judul{
+    text-align: justify;
+    float: right;
+    font-size: 30 px;
+    font-weight: 600;
+}
+
+.style-judul img{
+    height: 30px;
+    padding-left: 20px;
+    float :left ;
+}
+
+.offcanvas-body{
+    background-color: #b8d6ec;
+}
+
+#banner{
+    background-image: linear-gradient( to right, #b8d6ec, #58a9e5);
+}
+.container{
+    position: absolute;
+    top: 90px;
+}
+
+.row{
+   padding-left: 100px;
+}
+
+.card{
+    max-width: 650px;
+    padding-left: 350px;
+    top: 200px;
+    position: relative;
+    background-color: #939a9f;
+
+}
+
+.col-md-4 img{
+    height: 200px;
+    width: 180px;
+}
+
+.artikel{
+    top: 400px;
+    position: fixed;
+}

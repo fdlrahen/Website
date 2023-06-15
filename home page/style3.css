@@ -1,0 +1,69 @@
+/* style3.css */
+
+/* Navbar */
+.navbar {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+  .offcanvas-header {
+    background-color: #f8f9fa;
+  }
+  
+  /* Carousel */
+  .carousel-item img {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: #fff;
+  }
+  
+  /* Card */
+  .card {
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  /* Data Perawat */
+  .dataPerawat {
+    margin: 20px auto;
+  }
+  
+  .table {
+    width: 100%;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    color: #6c757d;
+  }
+  
+  /* Media Queries */
+  @media (min-width: 576px) {
+    .navbar .offcanvas {
+      width: 300px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-toggler {
+      padding: 0.25rem 0.5rem;
+      font-size: 1rem;
+    }
+  
+    .navbar .offcanvas {
+      width: 200px;
+    }
+  }
+ 

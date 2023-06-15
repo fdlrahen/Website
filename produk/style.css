@@ -1,0 +1,109 @@
+/* Styling navbar */
+.navbar {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+  }
+  .navbar-brand {
+    color: #212529;
+    font-weight: bold;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url('/Images/toggler-icon.png');
+  }
+  
+  .offcanvas {
+    background-color: #fff;
+  }
+  
+  .offcanvas-title {
+    color: #212529;
+  }
+  
+  /*Styling pengertian macam-macam perawat*/
+  .carousel{
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+  .carousel-item img{
+    height: 150px;
+    width: max-content;
+  }
+  /* Styling form pendaftaran */
+  .container {
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: auto;
+  }
+  
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  /* Styling toast */
+  .toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  /* Cards */
+.card {
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  /* Form */
+  .panel {
+    margin-top: 50px;
+  }
+  
+  .panel-heading {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .panel-body {
+    padding: 20px;
+  }
+  
+  .panel-footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  
+  .footer a {
+    color: #000;
+  }
+  
+  .footer a:hover {
+    color: #007bff;
+  }
+  
